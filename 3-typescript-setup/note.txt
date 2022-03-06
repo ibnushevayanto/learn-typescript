@@ -1,0 +1,19 @@
+1. Cara compile typescript 
+tsc nama_file.ts 
+
+2. Cara compile typescript lalu file tersebut bila ada perubahan automatis tercompile
+tsc nama_file.ts -w
+
+3. Cara membuat semua file typescript terhubung
+tsc --init
+
+4. Cara compile semua file typescript secara bersamaan
+--- Lakukan langkah no 3
+--- Lalu ketik kode: 'tsc' 
+
+5. Cara watch file typescript agar tercompile automatis 
+--- Lakukan langkah no 3
+--- Lalu ketik kode: 'tsc -w'
+
+6. Membuat config untuk exclude dan include file ts yang boleh dicompile
+--- Check tsconfig.json line 100
